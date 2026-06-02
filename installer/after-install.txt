@@ -1,0 +1,11 @@
+Orville Fusion Plugin has been installed to Autodesk Fusion's per-user AddIns folders.
+
+Next steps:
+
+1. Restart Autodesk Fusion if it is already open.
+2. Open Utilities > Add-Ins > Scripts and Add-Ins.
+3. Select the Add-Ins tab.
+4. Select OrvilleFusionAddIn.
+5. Click Run.
+
+The installer also registers an uninstaller in Windows Apps & Features.

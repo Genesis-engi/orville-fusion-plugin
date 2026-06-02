@@ -1,0 +1,15 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "addin",
+  "id": "2cf96db8-3199-4a21-9a39-61e7dd10f3d0",
+  "name": "Orville",
+  "author": "Ballista Labs Inc.",
+  "description": {
+    "": "Chat with Orville from Autodesk Fusion and import generated STEP artifacts."
+  },
+  "version": "0.1.0",
+  "supportedOS": "windows|mac",
+  "editEnabled": true,
+  "runOnStartup": true,
+  "iconFilename": "resources/AddInIcon.svg"
+}

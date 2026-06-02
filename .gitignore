@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Fusion/local runtime artifacts
+*.log
+logs/
+tmp/
+downloads/
+orville_job_state.json
+
+# Secrets
+.env
+.env.*
+*.key
+secrets/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
