@@ -72,3 +72,13 @@ The plan is anchored to Autodesk's current Fusion API documentation and the Orvi
 ## License
 
 The Orville Fusion plugin, including the installable Fusion add-in under `OrvilleFusionAddIn/`, is open source under the MIT License. See [LICENSE](LICENSE); the installed add-in folder also includes its own MIT license copy.
+
+## Packaging a Fusion add-in release
+
+From the repository root, check out the release commit and run this command with Git (Bash or Git Bash). It packages the tracked runtime files under the folder name Fusion expects.
+
+```sh
+git archive --format=zip --prefix=OrvilleFusionAddIn/ --output=OrvilleFusionAddIn-universal.zip HEAD:OrvilleFusionAddIn -- OrvilleFusionAddIn.manifest OrvilleFusionAddIn.py resources ui lib LICENSE
+```
+
+Upload `OrvilleFusionAddIn-universal.zip` as an asset of a stable GitHub Release. Use a numeric tag such as `v0.1.0` matching the version in `OrvilleFusionAddIn.manifest`.
